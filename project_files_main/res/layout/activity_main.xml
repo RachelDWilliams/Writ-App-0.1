@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+
+    <TextView
+        android:id="@+id/titleP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:includeFontPadding="false"
+        android:text="@string/writ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleP2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_sacred"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        android:translationY="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/titleP1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/titleP3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/of_username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        android:translationY="-10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleP1" />
+
+    <TextView
+        android:id="@+id/feel_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/feel_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lineDeco" />
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/warning"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF0000"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/feel_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/base_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/anger_spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feel_label" />
+
+    <Spinner
+        android:id="@+id/focus_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/energy_spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/focus_label" />
+
+    <Spinner
+        android:id="@+id/energy_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/focus_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/energy_label" />
+
+    <Spinner
+        android:id="@+id/anger_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/base_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/feel_label" />
+
+
+    <Spinner
+        android:id="@+id/sadness_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/base_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/feel_label" />
+
+    <Spinner
+        android:id="@+id/surprise_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/base_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/feel_label" />
+
+    <Spinner
+        android:id="@+id/joy_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/base_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/feel_label" />
+
+    <Spinner
+        android:id="@+id/love_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/base_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/feel_label" />
+
+
+    <Spinner
+        android:id="@+id/fear_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/base_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/feel_label" />
+
+    <TextView
+        android:id="@+id/thoughts_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/thoughts_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/focus_spinner" />
+
+    <TextView
+        android:id="@+id/focus_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/focus_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/energy_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imood_output" />
+
+    <TextView
+        android:id="@+id/energy_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/energy_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/focus_label"
+        app:layout_constraintTop_toBottomOf="@+id/imood_output" />
+
+    <TextView
+        android:id="@+id/mood_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/mood_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/base_spinner" />
+
+    <SeekBar
+        android:id="@+id/simpleSeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:progress="50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mood_label" />
+
+    <View
+        android:id="@+id/lineDeco"
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleP1" />
+
+    <TextView
+        android:id="@+id/imood_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/simpleSeekBar" />
+
+    <EditText
+        android:id="@+id/thoughts_input"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="1"
+        android:maxLength="100"
+        android:inputType="textMultiLine"
+        android:layout_weight="1"
+        android:maxLines="4"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thoughts_label"
+        android:autofillHints="none"
+        tools:ignore="LabelFor"
+        android:digits="0123456789. !*#@?qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+        />
+
+    <Button
+        android:id="@+id/click"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="#5E5E5E"
+        android:text="@string/button"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/switcher"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#5E5E5E"
+        android:text="@string/switcher"
+        android:textColor="#FFF"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

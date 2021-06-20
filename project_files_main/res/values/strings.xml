@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Writ</string>
+    <string name="the_sacred">The Sacred</string>
+    <string name="of_username">Of Rachel</string>
+    <string name="writ">W R I T</string>
+    <string name="feel_label">I Feel:</string>
+    <string name="mood_label">Mood Intensity:</string>
+    <string name="focus_label">Focus:</string>
+    <string name="energy_label">Energy:</string>
+    <string name="thoughts_label">My thoughts right now (optional):</string>
+    <string name="button">Commit</string>
+    <string name="switcher">View Writ</string>
+    <string name="home">Home</string>
+    <string name="warning">Please Complete All Fields!</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+</resources>

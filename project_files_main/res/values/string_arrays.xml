@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mood_base">
+        <item>Choose Category</item>
+        <item>Anger</item>
+        <item>Sadness</item>
+        <item>Surprise</item>
+        <item>Joy</item>
+        <item>Love</item>
+        <item>Fear</item>
+    </string-array>
+    <string-array name="mood_anger">
+        <item>Rage</item>
+        <item>Hate</item>
+        <item>Hostile</item>
+        <item>Exasperated</item>
+        <item>Agitated</item>
+        <item>Frustrated</item>
+        <item>Irritable</item>
+        <item>Annoyed</item>
+        <item>Aggravated</item>
+        <item>Envy</item>
+        <item>Resentful</item>
+        <item>Jealous</item>
+        <item>Disgust</item>
+        <item>Contempt</item>
+        <item>Revolted</item>
+    </string-array>
+    <string-array name="mood_sadness">
+        <item>Suffering</item>
+        <item>Agony</item>
+        <item>Hurt</item>
+        <item>Sadness</item>
+        <item>Depressed</item>
+        <item>Sorrow</item>
+        <item>Disappointed</item>
+        <item>Dismayed</item>
+        <item>Displeased</item>
+        <item>Shameful</item>
+        <item>Regretful</item>
+        <item>Guilty</item>
+        <item>Neglected</item>
+        <item>Isolated</item>
+        <item>Lonely</item>
+        <item>Despair</item>
+        <item>Grief</item>
+        <item>Powerless</item>
+    </string-array>
+    <string-array name="mood_surprise">
+        <item>Stunned</item>
+        <item>Shocked</item>
+        <item>Dismayed</item>
+        <item>Confused</item>
+        <item>Disillusioned</item>
+        <item>Perplexed</item>
+        <item>Amazed</item>
+        <item>Astonished</item>
+        <item>Awe-Struck</item>
+        <item>Overcome</item>
+        <item>Speechless</item>
+        <item>Astounded</item>
+        <item>Moved</item>
+        <item>Stimulated</item>
+        <item>Touched</item>
+    </string-array>
+    <string-array name="mood_joy">
+        <item>Content</item>
+        <item>Pleased</item>
+        <item>Satisfied</item>
+        <item>Happy</item>
+        <item>Amused</item>
+        <item>Delighted</item>
+        <item>Cheerful</item>
+        <item>Jovial</item>
+        <item>Blissful</item>
+        <item>Proud</item>
+        <item>Triumphant</item>
+        <item>Illustrious</item>
+        <item>Optimistic</item>
+        <item>Eager</item>
+        <item>Hopeful</item>
+        <item>Enthusiastic</item>
+        <item>Excited</item>
+        <item>Zeal</item>
+        <item>Elation</item>
+        <item>Euphoric</item>
+        <item>Jubilation</item>
+        <item>Enthralled</item>
+        <item>Enchanted</item>
+        <item>Rapture</item>
+        <item>Peaceful</item>
+        <item>Relieved</item>
+        <item>Satisfied</item>
+    </string-array>
+    <string-array name="mood_love">
+        <item>Affectionate</item>
+        <item>Fondness</item>
+        <item>Romantic</item>
+        <item>Longing</item>
+        <item>Attracted</item>
+        <item>Sentimental</item>
+        <item>Desire</item>
+        <item>Infatuation</item>
+        <item>Passion</item>
+        <item>Tenderness</item>
+        <item>Compassionate</item>
+        <item>Caring</item>
+    </string-array>
+    <string-array name="mood_fear">
+        <item>Scared</item>
+        <item>Helpless</item>
+        <item>Frightened</item>
+        <item>Terror</item>
+        <item>Hysterical</item>
+        <item>Panic</item>
+        <item>Insecure</item>
+        <item>Inadequate</item>
+        <item>Inferior</item>
+        <item>Nervous</item>
+        <item>Anxious</item>
+        <item>Worried</item>
+        <item>Horror</item>
+        <item>Dread</item>
+        <item>Mortified</item>
+    </string-array>
+    <string-array name="focus_array">
+        <item>Choose One</item>
+        <item>Hyperfocused</item>
+        <item>Focused</item>
+        <item>Distractable</item>
+        <item>Struggling</item>
+        <item>Withdrawn</item>
+    </string-array>
+    <string-array name="energy_array">
+        <item>Choose One</item>
+        <item>High Energy</item>
+        <item>Medium Energy</item>
+        <item>Dwindling Energy</item>
+        <item>Low Energy</item>
+        <item>Empty</item>
+    </string-array>
+</resources>
